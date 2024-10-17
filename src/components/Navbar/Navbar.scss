@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav_list{
+    display: flex;
+    padding: 0;
+    gap: 57px;
+    color: black;
+    font-size: 24px;
+    list-style: none;
+}
+
+.notActive{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.active {
+    color: black;
+    font-size: 24px;
+}

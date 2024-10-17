@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet');
+
+.Drop_down {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px;
+    width: 80%;
+    align-self: center;
+}
+
+.drop {
+    background-color: rgba(246, 246, 246, 0.45);
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.down_btn {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 96, 96, 1);
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.down_btn button {
+    background: none;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/* Arrow Rotation */
+button img {
+    transition: transform 0.3s ease-in-out;
+}
+
+button.rotated img {
+    transform: rotate(180deg);
+}
+
+/* Arrow Rotation */
+
+.down_name {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 15px;
+}
+
+.drop_menu {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.drop_menu p {
+    padding: 20px 25px;
+}
+
+.drop_menu.open {
+    height: 8em;
+    overflow: auto;
+}

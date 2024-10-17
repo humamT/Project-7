@@ -1,0 +1,57 @@
+.Desc_equip {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.drop_Desc_equip {
+    background-color: rgba(246, 246, 246, 0.45);
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    width: 45%;
+}
+
+.Desc_equip_down_btn {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 96, 96, 1);
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.Desc_equip_down_btn button {
+    background: none;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.Desc_equip_down_name {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 15px;
+}
+
+.drop_menu {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.drop_menu p {
+    padding: 0px 25px;
+}
+
+.drop_menu.open {
+    height: 8em;
+    overflow: auto;
+}
+
+.equipments p{
+    display: flex;
+}
