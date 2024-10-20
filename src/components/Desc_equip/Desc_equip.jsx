@@ -54,7 +54,7 @@ function Desc_equip() {
 
                 key={'equipments'}
                 description={logement.equipments.map((equipments, index) => (
-                    <p key={index}>{equipments}</p>
+                    <span key={index}>{equipments}</span>
                 ))}
                 index={1}
 
