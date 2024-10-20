@@ -1,6 +1,5 @@
 import './Banner.scss';
 import Banner_img from '../../assets/images/Banner.svg'
-import Banner_overlay from '../../assets/images/fond-noir-banner.png'
 
 function Banner() {
     return (

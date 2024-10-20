@@ -4,3 +4,8 @@
     justify-content: center;
     margin: 0 6em;
 }
+@media all and (max-width: 500px) {
+    .Logement{
+        margin: 0 1em;
+    }
+}

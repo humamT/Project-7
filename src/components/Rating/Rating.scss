@@ -5,7 +5,43 @@
 }
 
 .star-icon {
-    width: 24px;  /* Adjust size as needed */
+    width: 24px;
     height: 24px;
-    margin-right: 4px;  /* Spacing between stars */
+    margin-right: 4px;
+}
+
+
+@media all and (min-width: 500px) {
+    .host_mobile {
+        display: none;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .stars_host {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .host_name {
+        font-size: 12px;
+    }
+
+    .host_pic {
+        height: 32px;
+    }
+
+    .star-rating {
+        margin: 5px 0 15px;
+    }
+
+    .star-icon {
+        width: 13px;
+        height: 13px;
+    }
+
 }

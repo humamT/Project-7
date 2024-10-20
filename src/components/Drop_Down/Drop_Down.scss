@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .Drop_down {
     display: flex;
@@ -65,4 +65,26 @@ button.rotated img {
 .drop_menu.open {
     height: 8em;
     overflow: auto;
+}
+
+@media all and (max-width: 500px) {
+
+    .Drop_down {
+        width: 100%;
+        margin: 30px 0px;
+    }
+
+    .down_btn button {
+        padding: 10.5px;
+    }
+
+    .down_btn button img{
+        height: 9px;
+    }
+
+    .down_name {
+        font-size: 13px;
+        padding: 10px;
+    }
+
 }

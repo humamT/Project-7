@@ -37,7 +37,6 @@ function Slider({ logement }) {
                 <button className='arrow right' onClick={nextHandler}>
                     <img src={RightArow} alt="right arrow" />
                 </button>
-                <div className='counter'> </div>
 
             </div>
         </section>

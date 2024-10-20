@@ -1,10 +1,10 @@
-.nav{
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.nav_list{
+.nav_list {
     display: flex;
     padding: 0;
     gap: 57px;
@@ -13,7 +13,7 @@
     list-style: none;
 }
 
-.notActive{
+.notActive {
     text-decoration: none;
     color: black;
     font-size: 24px;
@@ -22,4 +22,22 @@
 .active {
     color: black;
     font-size: 24px;
+}
+
+@media all and (max-width: 500px) {
+
+    .nav_list {
+        gap: 30px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .notActive {
+        font-size: 12px;
+    }
+
+    .active {
+        font-size: 12px;
+    }
+
 }

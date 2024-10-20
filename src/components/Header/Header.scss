@@ -1,4 +1,4 @@
-.Header{
+.Header {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -6,7 +6,24 @@
     margin: 0 6em;
 }
 
-.Header h1 img{
+.Header h1 img {
     width: 210px;
     margin: 20px 0;
+}
+
+@media all and (max-width: 500px) {
+
+    .Header {
+        margin: 0 1em;
+    }
+
+    .Header h1 {
+        margin: 0;
+    }
+
+    .Header h1 img {
+        width: 145px;
+        margin: 20px 0;
+    }
+
 }

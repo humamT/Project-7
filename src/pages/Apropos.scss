@@ -1,6 +1,13 @@
-.Apropos{
+.Apropos {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 0 6em;
+}
+
+
+@media all and (max-width: 500px) {
+    .Apropos {
+        margin: 0 1em;
+    }
 }

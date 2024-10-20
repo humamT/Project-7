@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .Error{
     display: flex;
@@ -27,4 +27,21 @@
     font-size: 18px;
     color: black;
     font-weight: 500;
+}
+
+@media all and (max-width: 500px) {
+
+    .Error{
+        margin: 139px 1em;
+    }
+
+    .Error h5{
+        font-size: 96px;
+    }
+
+    .Error p{
+        font-size: 18px;
+        text-align: center;
+    }
+
 }

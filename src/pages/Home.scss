@@ -4,3 +4,11 @@
     justify-content: center;
     margin: 0 6em;
 }
+
+@media all and (max-width: 500px) {
+
+    .home{
+        margin: 0 1em;
+    }
+    
+}
